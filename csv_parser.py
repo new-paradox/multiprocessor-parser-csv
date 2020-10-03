@@ -190,9 +190,3 @@ class ParsersRunner:
         print('Тикеры с нулевой волатильностью:')
         pprint(', '.join(self.zero_volatility))
 
-#
-# if __name__ == '__main__':
-#     try:
-#         ParsersRunner(src='trades', numbers_process=3).run()
-#     except FileNotFoundError as exc:
-#         print(f"Error: {exc} type {(type(exc))}")
